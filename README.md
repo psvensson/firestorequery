@@ -21,7 +21,7 @@ Set the FIRESTORE_SERVICE_ACCOUNT to the filepath of the private key file you do
 ## Running
 
     node index.js -h    to get help
-    node index.js -c users      list ten documents from the 'suers' collection
+    node index.js -c users      list ten documents from the 'users' collection
     node index.js -c users -p username -x \> -v r     list users with username starting with r
     
         
