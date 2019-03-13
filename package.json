@@ -1,0 +1,27 @@
+{
+  "name": "firestorequery",
+  "version": "1.0.0",
+  "description": "A small CLI tool that let you make queries to firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psvensson/firestorequery.git"
+  },
+  "keywords": [
+    "firestore",
+    "cli"
+  ],
+  "author": "Peter Svensson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/psvensson/firestorequery/issues"
+  },
+  "homepage": "https://github.com/psvensson/firestorequery#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "firebase-admin": "^7.0.0"
+  }
+}
